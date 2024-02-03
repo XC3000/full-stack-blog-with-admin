@@ -1,9 +1,8 @@
-"use client"
+"use client";
 
-const Error = () => {
-  return (
-    <div>Error</div>
-  )
-}
+const Error = ({ error }) => {
+  console.log("error blogs fetching", error);
+  return <div>Error 123</div>;
+};
 
-export default Error
+export default Error;
